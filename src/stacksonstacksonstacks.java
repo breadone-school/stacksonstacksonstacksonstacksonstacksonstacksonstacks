@@ -1,5 +1,4 @@
-import java.util.*;
-
+import java.io.Reader;
 
 public class stacksonstacksonstacks {
     public static void main(String[] args) throws Exception {
@@ -7,21 +6,16 @@ public class stacksonstacksonstacks {
         stacksonstacksonstacks stacks = new stacksonstacksonstacks();
     }
 
-    public static void stacksonstacksonstacksonstacks() {
-        System.out.println("stacks are fucking stupid ngl");
-        Stack<String>frick = new Stack<>();
+    public static void stacksonstacksonstacksonstacks() {         
+        int stacksonstacks[] = new int[20];
+        int TOS = 0;
 
-         
-        int ok[] = new int[20];
-
-        frick.push("gamer)");
-
-        System.out.println(frick);
-
-
-
+        if (TOS == stacksonstacks.length) {
+            System.out.println("stack is full");
+        }  else {
+            TOS += 1;
+            System.out.print("what to add: ");
+            stacksonstacks[TOS] = Integer.parseInt(System.console().readLine());
+        }  
     }
-
-
 }
-
