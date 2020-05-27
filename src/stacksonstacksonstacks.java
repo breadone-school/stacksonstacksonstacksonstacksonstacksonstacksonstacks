@@ -1,5 +1,7 @@
 import java.io.Reader;
 
+import sun.font.SunFontManager.FamilyDescription;
+
 public class stacksonstacksonstacks {
     public static void main(String[] args) throws Exception {
         stacksonstacksonstacksonstacks();
@@ -30,4 +32,27 @@ public class stacksonstacksonstacks {
             }
        }
     }
+
+    public static void qs() {
+        int[] qs = new int[20];
+        boolean flag = false;
+        int tail =0;
+
+        for (int i = 0; i < qs.length; i++) {
+            if (qs[i] != 0) {
+                flag = false;
+                break;
+            }   
+        }
+
+        if (flag == false) {
+            System.out.println("enter new value");
+            int newitem = Integer.parseInt(System.console().readLine());
+            tail += 1;
+
+            qs[tail] = newitem;
+        }
+    }
+
+
 }
